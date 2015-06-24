@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "All About Methods"
-date: 2015-03-03 19:11:45 -0500
+date: 2015-03-03 15:11:45 -0500
 comments: true
 categories:
 ---
