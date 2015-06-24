@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Hi,
-
 My name is Josh Bodah. I've been working as a web developer for four years.
 In that time I've used Ruby, Javascript, and C# professionally as well as a bunch of other academically.
 
