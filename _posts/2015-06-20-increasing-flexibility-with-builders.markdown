@@ -99,6 +99,7 @@ something as simple as rename an argument (note: if you aren't using Ruby's keyw
 then you really should [check them out](https://robots.thoughtbot.com/ruby-2-keyword-arguments)).
 
 So, in summary, these are the issues with the original approach:
+
   1. `Service` is overloaded with the responsibility of defining the `Search` strategy
   2. Business rules for selecting `Search` strategy are obscured by inheritance
   3. Directly instantiating the `Search` implementation doesn't provide flexibility during construction
@@ -256,6 +257,7 @@ but it shows how ducktyping on `#call` gives us a lot more flexibility in our de
 instantiation entirely if we wanted.
 
 So to recap, here are the changes we made:
+
   1. Move responsibility of determining `Search` strategy out of our monolithic `Service` class and into a `SearchBuilder`
   2. Encapsulate the strategy instance creation in the `SearchBuilder` to allow the `Search` strategies to be implemented
      in whatever way is most convenient for the strategy writer

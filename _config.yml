@@ -9,3 +9,5 @@ github_username:  jbodah
 
 # Build settings
 markdown: redcarpet
+
+permalink: /blog/:year/:month/:day/:title/
