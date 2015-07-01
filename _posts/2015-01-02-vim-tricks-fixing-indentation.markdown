@@ -3,7 +3,7 @@ layout: post
 title: "Vim Tricks: Fixing Indentation"
 date: 2015-01-02 11:34:59 -0500
 comments: true
-categories:
+categories: vim
 ---
 
 One of the annoying things about working with Vim is pasting from the clipboard directly into insert mode. Your indentation can easily get all screwy:

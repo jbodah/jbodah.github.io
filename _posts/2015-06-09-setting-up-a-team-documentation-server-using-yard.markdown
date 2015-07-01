@@ -3,7 +3,7 @@ layout: post
 title: "Setting Up a Team Documentation Server Using YARD"
 date: 2015-06-09 18:21:45 -0400
 comments: true
-categories:
+categories: ruby
 ---
 
 Our team has been using YARD syntax in to document our Ruby code for awhile now. It's a great way to document what methods do, which parameters they accept, and what the return. Here's an example of what a YARD doc looks like:

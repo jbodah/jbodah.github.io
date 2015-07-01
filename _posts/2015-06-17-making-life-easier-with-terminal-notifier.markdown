@@ -3,7 +3,7 @@ layout: post
 title: "Making Life Easier with TerminalNotifier"
 date: 2015-06-17 10:51:00 -0400
 comments: true
-categories:
+categories: ruby, osx
 ---
 
 Anyone who knows me knows I'm a sucker for anything that streamlines my development

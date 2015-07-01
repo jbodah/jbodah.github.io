@@ -3,7 +3,7 @@ layout: post
 title: "An Example of why the Wrong Abstraction is Worse than No Abstraction at all"
 date: 2014-10-04
 comments: true
-categories:
+categories: design
 ---
 
 Every now and then you'll hear someone mention that using the wrong abstraction is often more detrimental than no abstraction at all. I'd like to provide an example of why I think that is.

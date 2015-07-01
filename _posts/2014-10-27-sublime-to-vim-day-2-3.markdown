@@ -3,7 +3,7 @@ layout: post
 title: "Sublime to Vim: Day 2 & 3"
 date: 2014-10-27
 comments: true
-categories:
+categories: vim
 ---
 
 Day 1 was pretty easy, but the day 2 was more difficult. I found myself really limited by what vim offers out of the box. Some of the configuration notation is pretty archaic, and it's a struggle to get what you want if you don't have a really solid understanding of how to do it.

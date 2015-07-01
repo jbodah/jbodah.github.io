@@ -3,7 +3,7 @@ layout: post
 title: "Why I'm Switching from Sublime to Vim"
 date: 2014-10-22
 comments: true
-categories:
+categories: vim
 ---
 
 I love Sublime. It's been my editor of choice for the past 4 years and is superior to most other modern editors. I consider myself a power user as I create my own snippets and my own build tools and am fluent with almost all of the keybinds. The only things I haven't done is make my own plugin or color scheme. My skills with Sublime are high enough where it pains me to watch others fumble around instead of doing a CMD+p CMD+r fuzzy search to get where they want.

@@ -3,7 +3,7 @@ layout: post
 title: "All About Methods"
 date: 2015-03-03 15:11:45 -0500
 comments: true
-categories:
+categories: ruby
 ---
 
 One of the things I find most confusing about Ruby is how methods are defined and bound to instances.

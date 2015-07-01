@@ -3,7 +3,7 @@ layout: post
 title: "Vim Tricks: Ctrlp and Gems (Take 2)"
 date: 2015-03-16 11:26:43 -0400
 comments: true
-categories:
+categories: vim, ruby
 ---
 
 A little while ago I wrote a post regarding how to work with Ctrlp and your Gem

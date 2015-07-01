@@ -3,7 +3,7 @@ layout: post
 title: "Removing Old VCR Cassettes"
 date: 2015-04-28 12:33:32 -0400
 comments: true
-categories:
+categories: ruby, testing
 ---
 
 Have a bunch of VCR cassettes and don't know what's still being used? This Minitest plugin is for you!

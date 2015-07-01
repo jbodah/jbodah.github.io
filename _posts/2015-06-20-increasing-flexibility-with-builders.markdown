@@ -3,7 +3,7 @@ layout: post
 title: "Increasing Flexibility with Builders"
 date: 2015-06-20 10:17:05 -0400
 comments: true
-categories:
+categories: ruby, design
 ---
 
 This is one of the patterns we use a lot in our code base:

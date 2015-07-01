@@ -3,7 +3,7 @@ layout: post
 title: "Why I Wish Ruby Had Prototype Inheritance"
 date: 2014-11-11
 comments: true
-categories:
+categories: ruby
 ---
 
 I was working on converting some legacy code the other day which looked something like this:

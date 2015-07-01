@@ -3,7 +3,7 @@ layout: post
 title: "Sublime to Vim: Day 1"
 date: 2014-10-22 21:02
 comments: true
-categories:
+categories: vim
 ---
 
 Today I made my switch over to Vim from Sublime. I thought that things we be a lot more painful, but they really weren't too bad. I feel pretty comfortable and only had to pop into Sublime once or twice to do some cross-file searches.

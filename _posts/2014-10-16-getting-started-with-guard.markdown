@@ -3,7 +3,7 @@ layout: post
 title: "Getting Started with Guard"
 date: 2014-10-16
 comments: true
-categories:
+categories: workflow, ruby, guard
 ---
 
 Guard is a watch task gem that can run tasks when you change files (e.g. saving). It can run tests, static analyzers, and anything else you can think of.

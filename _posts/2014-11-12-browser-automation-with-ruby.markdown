@@ -3,7 +3,7 @@ layout: post
 title: "Browser Automation In Ruby"
 date: 2014-11-12
 comments: true
-categories:
+categories: ruby, selenium, testing
 ---
 
 In my last job we used Watir for our automation scripts. If you haven't used it before, it's basically a wrapper for Selenium that allows you to script user interactions to a browser instance. It got the job done, and it was really useful for awhile (we wound up making some major architectural shifts and I never had the time to get it back up and running). The problem with Watir is that it's pretty much dead now. The documentation is sparse and the syntax is inconsistent at times.

@@ -3,7 +3,7 @@ layout: post
 title: "Feedback Driven Development"
 date: 2014-10-10
 comments: true
-categories:
+categories: workflow
 ---
 
 I think it's safe to say that TDD is a mature topic in the programming community. It's a fairly heated topic that I feel divides people: you're either for TDD or you're against it. Those for it believe that TDD leads to more testable code which makes the code more modular and easier to use. Those against it claim that it tends to lead to monolithic test suites that lose purpose by being too tangled to an implementation which just makes refactoring harder. They also claim that it gives a false security that the system is really working (full unit test suite passes, but things still break due to not integration tests).

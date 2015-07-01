@@ -3,7 +3,7 @@ layout: post
 title: "Vim Tricks: CtrlP and Gems"
 date: 2014-12-31 11:50:55 -0500
 comments: true
-categories:
+categories: vim, ruby
 ---
 
 My transition to Vim has been pretty good so far. There are still a couple
