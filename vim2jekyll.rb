@@ -65,20 +65,24 @@ HEX_TO_256 = {
 # Map from vim syntax to jekyll sass selectors
 syntax_to_selector_map = {
   # General
-  'PreProc'     => '.k',
-  'Comment'     => ['.c', '.c1', '.cm'],
-  'String'      => ['.s', '.s1', '.s2', '.si', '.se'],
-  'Constant'    => ['.ss', '.nb', '.nc'],
-  'Type'        => ['.nn', '.no'],
-  'Normal'      => ['.n', '.o', 'code', 'pre'],
-  'Function'    => '.nf',
-  'Identifier'  => '.vi',
+  'PreProc'     => %w(.k),
+  'Comment'     => %w(.c .c1 .cm),
+  'String'      => %w(.s .s1 .s2 .si .se),
+  'Constant'    => %w(.ss .nb),
+  'Type'        => %w(.nn .no .nc),
+  'Normal'      => %w(.n .o .nb code pre),
+  'Function'    => %w(.nf),
+  'Identifier'  => %w(.vi),
+  'Number'      => %w(.m .mi),
 
   # Ruby overrides
-  'rubyInstanceVariable'  => '.vi',
-  'rubyFunction'          => '.nf',
-  'rubyPseudoVariable'    => '.nc',
-  'rubySymbol'            => '.ss'
+  'rubyInstanceVariable'  => %w(.vi),
+  'rubyFunction'          => %w(.nf),
+  # TODO - bug in pygments: https://bitbucket.org/birkenfeld/pygments-main/issues/1137/ruby-base-module-highlighted-differently
+  'rubyPseudoVariable'    => %w(.nb),
+  'rubySymbol'            => %w(.ss),
+  'rubyConstant'          => %w(.nv),
+  'rubyRegexp'            => %w(.sr),
 }
 
 # Map from vim highlights to css attributes
