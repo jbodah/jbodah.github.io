@@ -7,7 +7,7 @@ categories:
 ---
 
 I did a two-part Ruby Primer series at work and figured I'd share the slides with anyone interested.
-The talk was targetted at beginner and intermediate Rubyists looking for a deeper understanding of how Ruby is organized
+The talk was targeted at beginner and intermediate Rubyists looking for a deeper understanding of how Ruby is organized
 and covers some of the more confusing features such as singleton classes and blocks.
 
 The first part focusses on Ruby's core object model, while the second part focusses on methods and blocks.
