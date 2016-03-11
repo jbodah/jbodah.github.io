@@ -14,13 +14,17 @@ namespace :post do
       .join("-")
     current_date = Time.now.getutc.strftime("%Y-%m-%d")
     file_path = "_posts/#{current_date}-#{post_slug}.md"
-  `echo '---
+    File.open(file_path, 'w') do |f|
+      f.write <<-EOF
+---
 layout: post
 title: "#{post_name}"
 date: #{Time.now}
 comments: true
 categories:
----' > #{file_path}`
-  system("vim #{file_path}")
+---
+EOF
+    end
+    system("vim #{file_path}")
   end
 end
