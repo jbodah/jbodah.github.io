@@ -18,7 +18,7 @@ namespace :post do
       f.write <<-EOF
 ---
 layout: post
-title: "#{post_name}"
+title: '#{post_name}'
 date: #{Time.now}
 comments: true
 categories:
