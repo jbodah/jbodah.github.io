@@ -176,8 +176,9 @@ end
 
 In the above example we use the "stabby-lambda" syntax to define our proc (TL;DR lambdas are a type of `Proc`).
 Since both `Proc` and `Symbol` respond to `:to_proc` then we just call that to normalize the
-argument into something we can handle generically. If you're not familiar with this
-approach of building interfaces, this is called "duck-typing", and here we've proven
+argument into something we can handle generically.
+
+If you're not familiar with this approach of building interfaces, this is called "duck-typing", and here we've proven
 just how effective this technique can be in simplifying our code. If you're not familiar with
-this technique then I highly recommend you also take a look at the interfaces for `Enumerable`, `Comparable`, and `IO`
-which allow duck-typing on `each`, `<=>`, and `read`/`write` respectively.
+this technique then I highly recommend you also take a look at the `Enumerable` and `Comparable` modules
+which duck-type on `each` and `<=>` respectively.
