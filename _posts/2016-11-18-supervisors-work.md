@@ -18,7 +18,7 @@ modules and don't really change behaviorally.
 
 Let's start with an example in Elixir, straight from the docs:
 
-```ex
+```elixir
 defmodule MyApp.Supervisor do
   use Supervisor
 
@@ -45,7 +45,7 @@ is laid out very conventionally and I recommend you take a little time to get co
 
 Here's the `__using__` macro at the time of writing this:
 
-```ex
+```elixir
 defmacro __using__(_) do
   quote location: :keep do
     @behaviour Supervisor
@@ -66,7 +66,7 @@ so let's dig into that. Obviously, this delegates to `Supervisor.start_link` pas
 
 Checking out the source for `Supervisor.start_link`:
 
-```ex
+```elixir
 def start_link(module, arg, options \\ []) when is_list(options) do
   case Keyword.get(options, :name) do
     nil ->
@@ -130,7 +130,7 @@ end.
 
 This is doing a few things. First, it's calling `Mod:init(Args)` which is just calling `MyApp.Supervisor.init`. Let's look at that again real quickly:
 
-```ex
+```elixir
 def init([]) do
   children = [
     worker(Stack, [[:hello]])
