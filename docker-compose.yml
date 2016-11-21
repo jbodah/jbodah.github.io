@@ -6,6 +6,6 @@ services:
       - .:/opt/blog
     working_dir: /opt/blog
     ports:
-      - 80:4000
+      - 4000:4000
     entrypoint: sh docker-entrypoint.sh
     command: bundle exec jekyll serve -H 0.0.0.0
