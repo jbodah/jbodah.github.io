@@ -151,7 +151,7 @@ exit signal to all of its linked processes. Calling `process_flag` will trap tha
 to that process instead. As we'll see later, the supervisor process will use that `from_pid` value to know which process died and how to
 restart it.
 
-Okay, we left off in `:supervisor,init` and just started trapping exit signals. Next we initialize our state and our children. I won't go into `init_state`.
+Okay, we left off in `:supervisor.init` and just started trapping exit signals. Next we initialize our state and our children. I won't go into `init_state`.
 Let's go into `init_children` since we're not dealing with `:simple_one_for_one` supervisors.
 
 ```erlang
