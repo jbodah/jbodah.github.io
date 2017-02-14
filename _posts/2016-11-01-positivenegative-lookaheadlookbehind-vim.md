@@ -39,7 +39,7 @@ vim always treats them as literals unless escaped.)
 
 For reference:
 
-Positive lookahead: `\@=`
-Negative lookahead: `\@!`
-Positive lookbehind: `\@<=`
-Negative lookbehind: `\@<!`
+* Positive lookahead: `\@=`
+* Negative lookahead: `\@!`
+* Positive lookbehind: `\@<=`
+* Negative lookbehind: `\@<!`
