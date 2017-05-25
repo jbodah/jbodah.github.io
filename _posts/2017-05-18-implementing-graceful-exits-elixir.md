@@ -28,7 +28,7 @@ For the rest of this post I'll make use of [a small demo app](https://github.com
 gist in `beam_wrapper.sh`. You can start the app using `./beam_wrapper.sh`. For reference for those of you on mobile or the like,
 here's the source for the demo app:
 
-```ex
+```elixir
 defmodule ShutdownApp do
   use Application
   import Supervisor.Spec
@@ -79,7 +79,7 @@ modules (like `GenServer`) to specify teardown logic. [The docs](https://hexdocs
 tell us that `terminate` will only be called if the process is trapping exit signals (which it will *not* do be default).
 We'll flag the `ShutdownApp.Worker` process in its `init` callback to trap exits:
 
-```ex
+```elixir
 def init(_) do
   Process.flag(:trap_exit, true)
   {:ok, {}}
@@ -90,7 +90,7 @@ This will turn the exit signal into a message which we can act on. Note that the
 any other message and will be handled only after we process (or ignore) the other messages in our mailbox that are before it.
 `GenServer` already implements a `receive` block which will delegate to the `terminate` callback. In the demo app we simply print a message and sleep.
 
-```ex
+```elixir
 def terminate(_, _) do
   IO.inspect :terminating
   Process.sleep(1_000_000)
@@ -130,7 +130,7 @@ Now if you've been paying close attention you'll notice `ShutdownApp.Worker` was
 with a default shutdown time of 5000ms. We can override this by specifying a different shutdown time. In our environment we plan to let Kubernetes hard-kill our
 app, so any long timeout should work. I like to follow the advice of using very large numbers instead of `:infinity`, so I arbitrarily picked `123_456` instead:
 
-```ex
+```elixir
 defmodule ShutdownApp do
   # ...
 
