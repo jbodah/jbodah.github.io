@@ -44,8 +44,8 @@ of what it does.
 One neat feature of `ActiveSupport::Callbacks` is the ability to "halt" a callback chain.
 That is, the ability to stop processing the callback chain mid-way through the processing.
 You've probably seen this mentioned before if you've been doing Rails for awhile by returning `false` in one of your callbacks
-(DISCLAIMER: I am not up to date on edge Rails practices, but I don't believe Rails 5 works exactly this way anymore so check your facts if
-you want to use the callback halting feature)
+(NOTE: Rails 5 [has a different mechanism for halting the callback chain](http://guides.rubyonrails.org/active_record_callbacks.html#halting-execution), but the point is that
+a callback chain exists, it can be halted, and this is how before filters generally intercept requests to your actions).
 
 Anyways, I told you the ActiveSupport team already anticipated this pain for us? Here's the money:
 You can implement the instance method `halted_callback_hook(filter)` in your controller class (or any other class that includes `ActiveSupport::Callbacks`)
