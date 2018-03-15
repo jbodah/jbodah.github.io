@@ -16,7 +16,7 @@ real data.
 I compared every library for both Erlang and Elixir I could find on Github that did JSON decoding
 and was hosted on hex. Here is my wrapper application:
 
-```ex
+```
 defmodule JsonBm do
   def run do
     stream = IO.stream(:stdio, :line)
