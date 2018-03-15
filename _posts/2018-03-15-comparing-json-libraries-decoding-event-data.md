@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Comparing JSON Libraries for Decoding Event Data'
+title: 'Comparing Elixir JSON Libraries for Decoding Event Data'
 date: 2018-03-15 11:38:34 -0400
 comments: true
 categories:
