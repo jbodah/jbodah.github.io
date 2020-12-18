@@ -1,12 +1,9 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-Hey, I'm Josh.
-I've been working as a professional dev since 2011.
-I spend most of my day working with Elixir, Ruby, and Javascript.
-I also ocassionally dip into UNIX, Kubernetes, Docker, and MySQL among other things.
+I work as an engineer at Stripe where I work on database reliability. I'm interested in distributed systems, Ruby, and the softer sides of engineering.
+In my spare time I like to bake and make fancy cocktails.
 
-Feel free to checkout some of my open source projects and contributions on [my github](https://github.com/jbodah)
+Thanks for reading!

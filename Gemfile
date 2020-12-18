@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'rake'
-gem 'therubyracer' # dumb coffescript
-gem 'redcarpet'
+gem "jekyll"
+gem "jekyll-gist"
+gem "jekyll-paginate"
+gem "jekyll-seo-tag"
